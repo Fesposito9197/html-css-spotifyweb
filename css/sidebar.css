@@ -15,6 +15,7 @@ aside{
 /* ----------------------------
 RESPONSIVE SIDEBAR
 ----------------------------- */
+/* mobile */
 @media screen and (max-width:600px) {
     .img-none{
         display: none;
@@ -32,4 +33,5 @@ RESPONSIVE SIDEBAR
     .m-top-190{
         margin-top: 450px; 
     }
+    
 }

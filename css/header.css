@@ -8,3 +8,14 @@ header{
     width: calc(100% - 230px);
     left: 230px;
 }
+/* mobile */
+@media screen and (max-width:600px) {
+    header{
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 90px;
+        width: calc(100% - 70px);
+        left: 70px;
+    }
+    
+}
