@@ -5,12 +5,7 @@ body{
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
 }
-.flex{
-    display: flex;
-}
-.just-end{
-    justify-content: flex-end;
-}
+
 .d-inline-block{
     display: inline-block;
 }
@@ -19,6 +14,67 @@ body{
 }
 .p-right-5{
     padding-right: .3125rem;
+}
+.m-top-190{
+    margin-top: 11.875rem;
+}
+.m-top-15{
+    margin-top: .9375rem;
+}
+.m-bottom-15{
+    margin-bottom: .9375rem;
+}
+.m-right-5{
+    margin-right: .3125rem;
+}
+.img-size{
+    max-width: 8.75rem;
+    max-height: 2.8125rem ;
+}
+
+.v-align-bottom{
+    vertical-align: bottom;
+}
+.d-none{
+    display:none;
+}
+.list-inline{
+    list-style: none;
+}
+/* ----------------------------
+ICON 
+----------------------------- */
+.icon-size-sm{
+    max-height: .9375rem;
+    max-width: .9375rem;
+}
+.icon-size{
+    max-height: 1.5625rem;
+    max-width: 1.5625rem;
+}
+.bg-grey{
+    background-color: #808080;
+}
+.bd-radius{
+    border-radius: 50%;
+}
+hr{
+    border: 1px solid #808080;
+}
+/* ----------------------------
+FLEX 
+----------------------------- */
+.flex{
+    display: flex;
+}
+.just-end{
+    justify-content: flex-end;
+}
+.flex-column{
+    flex-direction: column;
+}
+.just-space-between{
+    justify-content: space-between;
 }
 /* ----------------------------
 TYPO 
@@ -29,11 +85,28 @@ TYPO
 .text-left{
     text-align: left;
 }
+.white-text{
+    color: white;
+}
+.grey-text{
+    color: #6d6d6d;
+}
+.font-weight{
+    font-weight:bold;
+}
+.font-size{
+    font-size: 1.25rem;
+}
 /* ----------------------------
 BUTTON  
 ----------------------------- */
 .btn{
     text-decoration: none;
+}
+.btn-grey{
+    padding: .625rem;
+    background-color:#a3a3a3;
+    color: black;
 }
 .btn-big{
     padding: .9375rem 3.125rem .9375rem 3.125rem;

@@ -3,7 +3,7 @@ MAIN
 ----------------------------- */
 main{
     padding-top: 90px ;
-    width: calc(100% - 300px);
+    width: calc(100% - 230px);
     overflow-y: auto;
 }
 .page-container{
@@ -12,7 +12,3 @@ main{
     background-color: #141922;
 }
 
-aside{
-    width: 300px;
-    background-color: #000000;
-}

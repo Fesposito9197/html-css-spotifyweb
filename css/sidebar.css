@@ -1,0 +1,14 @@
+/* ----------------------------
+SIDEBAR
+----------------------------- */
+aside{
+    width: 230px;
+    background-color: #000000;
+}
+.container-side-bar{
+    color: white;
+    margin: 1.25rem;
+}
+.container-side-bar .col{
+    padding-bottom: 1.875rem;
+}
