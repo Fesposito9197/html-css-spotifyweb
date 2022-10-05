@@ -15,8 +15,8 @@ body{
 .p-right-5{
     padding-right: .3125rem;
 }
-.m-top-190{
-    margin-top: 11.875rem;
+.m-top-94{
+    margin-top: 5.875rem;
 }
 .m-top-15{
     margin-top: .9375rem;
@@ -26,6 +26,9 @@ body{
 }
 .m-right-5{
     margin-right: .3125rem;
+}
+.m-right-20{
+    margin-right: 20px;
 }
 .img-size{
     max-width: 140px;
@@ -73,8 +76,14 @@ FLEX
 .flex-column{
     flex-direction: column;
 }
+.flex-row{
+    flex-direction: row;
+}
 .just-space-between{
     justify-content: space-between;
+}
+.just-center{
+    justify-content: center;
 }
 /* ----------------------------
 TYPO 
