@@ -12,3 +12,24 @@ aside{
 .container-side-bar .col{
     padding-bottom: 1.875rem;
 }
+/* ----------------------------
+RESPONSIVE SIDEBAR
+----------------------------- */
+@media screen and (max-width:600px) {
+    .img-none{
+        display: none;
+    }
+    .d-none{
+        display: block;
+    }
+    .img-size{
+        max-height: 30px;
+        max-width: 30px;
+    }
+    aside{
+        width: 70px;
+    }
+    .m-top-190{
+        margin-top: 450px; 
+    }
+}

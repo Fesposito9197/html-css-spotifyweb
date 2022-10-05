@@ -28,8 +28,8 @@ body{
     margin-right: .3125rem;
 }
 .img-size{
-    max-width: 8.75rem;
-    max-height: 2.8125rem ;
+    max-width: 140px;
+    max-height: 45px ;
 }
 
 .v-align-bottom{
@@ -45,12 +45,12 @@ body{
 ICON 
 ----------------------------- */
 .icon-size-sm{
-    max-height: .9375rem;
-    max-width: .9375rem;
+    max-height: 15px;
+    max-width: 15px;
 }
 .icon-size{
-    max-height: 1.5625rem;
-    max-width: 1.5625rem;
+    max-height: 25px;
+    max-width: 25px;
 }
 .bg-grey{
     background-color: #808080;
