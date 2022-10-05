@@ -2,14 +2,14 @@
 MAIN
 ----------------------------- */
 main{
-    
+    padding-top: 90px ;
     width: calc(100% - 300px);
     overflow-y: auto;
 }
 .page-container{
     display: flex;
     height: calc(100% - 90px);
-    background-color: brown;
+    background-color: #141922;
 }
 
 aside{

@@ -1,0 +1,43 @@
+/* ----------------------------
+COMMON
+----------------------------- */    
+body{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.just-end{
+    justify-content: flex-end;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.p-top-15{
+    padding-top: .9375rem;
+}
+.p-right-5{
+    padding-right: .3125rem;
+}
+/* ----------------------------
+TYPO 
+----------------------------- */
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+/* ----------------------------
+BUTTON  
+----------------------------- */
+.btn{
+    text-decoration: none;
+}
+.btn-big{
+    padding: .9375rem 3.125rem .9375rem 3.125rem;
+    border: 1px solid white;
+    border-radius: 1.875rem;
+    color: white;
+}
