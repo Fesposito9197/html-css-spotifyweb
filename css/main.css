@@ -11,21 +11,22 @@ main{
     height: calc(100% - 90px);
     background-color: #141922;
 }
+nav ul{
+    flex-wrap: wrap;
+}
 
-/* nav ul li{
-    width: calc(100% / 6);
-} */
+
 /* ----------------------------
 RESPONSIVE MAIN
 ----------------------------- */
 /* desktop */
 @media screen and (max-width:1100px) {
-  
+    
 }
 
 /* tablet */
 @media screen and (max-width:700px) {
-  
+    
 }
 
 /* mobile */
@@ -35,7 +36,5 @@ RESPONSIVE MAIN
         width: calc(100% - 70px);
         overflow-y: auto;
     }
-   nav ul{
-    flex-wrap: wrap;
-   }
+   
 }

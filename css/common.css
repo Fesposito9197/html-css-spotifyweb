@@ -9,6 +9,9 @@ body{
 .d-inline-block{
     display: inline-block;
 }
+.padding-10{
+    padding: 10px;
+}
 .p-top-15{
     padding-top: .9375rem;
 }
@@ -20,6 +23,9 @@ body{
 }
 .m-top-15{
     margin-top: .9375rem;
+}
+.m-top-5{
+    margin-top: 5px;
 }
 .m-bottom-15{
     margin-bottom: .9375rem;
@@ -33,6 +39,10 @@ body{
 .img-size{
     max-width: 140px;
     max-height: 45px ;
+}
+.album-size{
+    max-width: 178px;
+    max-height: 178px;
 }
 
 .v-align-bottom{
@@ -82,6 +92,9 @@ FLEX
 .flex-grow{
     flex-grow: 1;
 }
+.f-wrap{
+    flex-wrap: wrap;
+}
 .just-space-between{
     justify-content: space-between;
 }
@@ -108,6 +121,10 @@ TYPO
 }
 .font-size{
     font-size: 1.25rem;
+}
+.w-wrap{
+    word-wrap: break-word;
+    width: 180px;
 }
 /* ----------------------------
 BUTTON  
