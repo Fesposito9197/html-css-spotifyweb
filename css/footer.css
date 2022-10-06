@@ -2,3 +2,18 @@ footer{
     height: 90px;
     background-color: #282828;
 }
+footer .col-left{
+    width: 230px;
+}
+.progress-area{
+    height: 6px;
+    width: 40%;
+    border-radius: 50px;
+    
+}
+.progress-area .progress-bar{
+    height: inherit;
+    width: 50%;
+    border-radius: inherit;
+    background-color: #adff2f;
+}

@@ -18,6 +18,9 @@ body{
 .p-right-5{
     padding-right: .3125rem;
 }
+.m-22-10{
+    margin: 22px 10px;
+}
 .m-top-94{
     margin-top: 5.875rem;
 }
@@ -33,6 +36,12 @@ body{
 .m-right-5{
     margin-right: .3125rem;
 }
+.m-right-10{
+    margin-right: 10px;
+}
+.m-left-10{
+    margin-left: 10px;
+}
 .m-right-20{
     margin-right: 20px;
 }
@@ -40,10 +49,18 @@ body{
     max-width: 140px;
     max-height: 45px ;
 }
+.width-15{
+    width: 15%;
+}
+.width-70{
+    width: 70%;
+}
 .album-size{
     width: 100%;
 }
-
+.width-45{
+    width: 45px;
+}
 .v-align-bottom{
     vertical-align: bottom;
 }
@@ -98,6 +115,9 @@ FLEX
 .just-space-between{
     justify-content: space-between;
 }
+.a-items-center{
+    align-items: center;
+}
 .just-center{
     justify-content: center;
 }
@@ -109,6 +129,9 @@ TYPO
 }
 .text-left{
     text-align: left;
+}
+.text-right{
+    text-align: right;
 }
 .white-text{
     color: white;

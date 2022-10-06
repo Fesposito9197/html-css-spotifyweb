@@ -11,12 +11,7 @@ aside{
     height: calc(100% - 25px);
     overflow-y:hidden;
 }
-.side-bar-icon li{
-    border-left: 3px solid transparent;
-}
-.side-bar-icon li:first-child{
-    border-color: lightgreen;
-}
+
 .container-side-bar .col{
     padding-bottom: 1.875rem;
 }
