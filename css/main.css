@@ -15,18 +15,24 @@ nav ul{
     flex-wrap: wrap;
 }
 
-
+.album-col{
+    width: calc((100% / 6));
+}
 /* ----------------------------
 RESPONSIVE MAIN
 ----------------------------- */
 /* desktop */
 @media screen and (max-width:1100px) {
-    
+    .album-col{
+        width: calc((100% / 4));
+    }
 }
 
 /* tablet */
 @media screen and (max-width:700px) {
-    
+    .album-col{
+        width: calc((100% / 2));
+    }
 }
 
 /* mobile */
