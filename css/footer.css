@@ -17,3 +17,26 @@ footer .col-left{
     border-radius: inherit;
     background-color: #adff2f;
 }
+/* desktop */
+@media screen and (max-width:1100px) {
+    
+}
+
+/* tablet */
+@media screen and (max-width:700px) {
+   .width-70{
+    width: 50%;
+   }
+   .width-15{
+    width: 25%;
+   }
+   footer .col-left{
+    width: 170px;
+}
+}
+
+/* mobile */
+@media screen and (max-width:600px) {
+    
+   
+}
