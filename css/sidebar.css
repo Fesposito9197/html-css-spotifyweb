@@ -8,6 +8,14 @@ aside{
 .container-side-bar{
     color: white;
     margin: 1.25rem;
+    height: calc(100% - 25px);
+    overflow-y:hidden;
+}
+.side-bar-icon li{
+    border-left: 3px solid transparent;
+}
+.side-bar-icon li:first-child{
+    border-color: lightgreen;
 }
 .container-side-bar .col{
     padding-bottom: 1.875rem;
@@ -30,8 +38,11 @@ RESPONSIVE SIDEBAR
     aside{
         width: 70px;
     }
-    .m-top-94{
-        margin-top: 450px; 
+    .side-bar-icon li{
+        border-left: 0px solid transparent;
     }
     
+    .footer-side-bar{
+        margin-top: auto;
+    }
 }

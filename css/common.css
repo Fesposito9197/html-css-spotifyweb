@@ -79,6 +79,9 @@ FLEX
 .flex-row{
     flex-direction: row;
 }
+.flex-grow{
+    flex-grow: 1;
+}
 .just-space-between{
     justify-content: space-between;
 }
