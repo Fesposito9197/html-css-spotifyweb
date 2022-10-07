@@ -82,6 +82,9 @@ body{
 .o-flow-y-hide{
     overflow-y: hidden;
 }
+.position{
+    position: relative;
+}
 /* ----------------------------
 ICON 
 ----------------------------- */

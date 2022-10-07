@@ -21,9 +21,7 @@ nav ul{
     width: calc((100% / 6));
     
 }
-.position{
-    position: relative;
-}
+
 .album-col .overlay{
     display: none;
     height: 100%;
