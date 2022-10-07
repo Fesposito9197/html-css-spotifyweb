@@ -177,13 +177,13 @@ BUTTON
     color: black;
 }
 .btn-big{
-    padding: .9375rem 3.125rem .9375rem 3.125rem;
+    padding: .625rem;
     border: 1px solid white;
     border-radius: 1.875rem;
     color: white;
 }
 .btn-large{
-    transform: scale(0.5);
+    transform: scale(0.9);
 }
 .btn-md{
     transform: scale(1);
