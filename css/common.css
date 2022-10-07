@@ -18,8 +18,8 @@ body{
 .p-right-5{
     padding-right: .3125rem;
 }
-.m-22-10{
-    margin: 22px 10px;
+.p-22-10{
+    padding: 22px 10px;
 }
 .m-top-94{
     margin-top: 5.875rem;
@@ -35,6 +35,9 @@ body{
 }
 .m-right-5{
     margin-right: .3125rem;
+}
+.m-right-25{
+    margin-right: 25px;
 }
 .m-right-10{
     margin-right: 10px;
@@ -121,6 +124,9 @@ FLEX
 .just-center{
     justify-content: center;
 }
+.j-end{
+    justify-content: end;
+}
 /* ----------------------------
 TYPO 
 ----------------------------- */
@@ -145,7 +151,9 @@ TYPO
 .font-size{
     font-size: 1.25rem;
 }
-
+.f-size-30{
+    font-size: 30px;
+}
 /* ----------------------------
 BUTTON  
 ----------------------------- */
