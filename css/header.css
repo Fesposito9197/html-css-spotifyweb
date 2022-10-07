@@ -8,6 +8,7 @@ header{
     width: calc(100% - 230px);
     left: 230px;
 }
+
 /* mobile */
 @media screen and (max-width:600px) {
     header{

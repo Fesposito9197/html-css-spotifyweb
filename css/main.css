@@ -14,9 +14,58 @@ main{
 nav ul{
     flex-wrap: wrap;
 }
-
+.top-nav li{
+    position: relative;
+}
 .album-col{
     width: calc((100% / 6));
+    
+}
+.position{
+    position: relative;
+}
+.album-col .overlay{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.5);
+    
+}
+
+.btn-play{
+    display: none;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    color: #fff;
+    
+    
+}
+.album-col:hover .overlay{
+   display: block;
+    
+}
+.album-col:hover .btn-play{
+    display: inline-block;
+}
+/* ----------------------------
+HOVER
+----------------------------- */
+.top-nav li:first-child::before{
+    content:'';
+    display: block;
+    position: absolute;
+    
+    bottom: 0;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 3px;
+    background-color: lightgreen;
 }
 /* ----------------------------
 RESPONSIVE MAIN

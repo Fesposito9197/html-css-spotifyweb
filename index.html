@@ -19,7 +19,7 @@
         <!-- sezione upgrade -->
         <header>
             <div class="p-top-15 flex just-end p-right-5 font-weight">
-                <a href="#" class="btn btn-big d-inline-block m-right-20">EFFETTUA L'UPGRADE</a>
+                <a href="#" class="btn btn-big d-inline-block m-right-20 btn-large">EFFETTUA L'UPGRADE</a>
             </div>
         </header>
         <!-- /sezione upgrade -->
@@ -34,33 +34,53 @@
                     <div class="side-bar-icon col">
                         <ul class="list-inline">
                             <li class="grey-text">
-                                <img src="img/home.svg" alt="#" class="icon-size v-align-bottom m-right-5">
+                                <img src="img/home.svg" alt="#" class="icon-size v-align-bottom m-right-5 ">
                                 <span class="img-none white-text">Home</span> 
                             </li>
                             <li class="m-top-15 grey-text">
                                 <img src="img/search.svg" alt="#" class="icon-size v-align-bottom m-right-5">
-                                <span class="img-none">Cerca</span> 
+                                <a href="#" class="img-none color-white btn grey-text">Cerca</a> 
                             </li>
                             <li class="m-top-15 grey-text">
                                 <img src="img/libreria.svg" alt="#" class="icon-size v-align-bottom m-right-5">
-                                <span class="img-none">La tua libreria</span> 
+                                <a href="#" class="btn img-none grey-text color-white">La tua libreria</a> 
                             </li>
                         </ul>
                     </div>
-                    <div class="playlist col img-none flex-grow">
+                    <div class="playlist col img-none flex-grow flex flex-column o-flow-y-hide">
                         <h4>PLAYLIST</h4>
-                        <ul class="list-inline">
-                            <li class="m-top-15 grey-text">
-                                <a href="#"><i class="fa-solid fa-plus btn-grey font-size m-right-5"></i></a> 
+                        <div class="m-top-15 grey-text">
+                            <a href="#" class="color-white btn grey-text">
+                                <i class="fa-solid fa-plus btn-grey font-size m-right-5 ">
+
+                                </i>
                                 Crea Playlist
+                            </a> 
+                        </div>
+                        <ul class="list-inline h-100 o-flow-y">
+                            
+                            <li class="m-top-15 grey-text">
+                                <a href="#" class="color-white btn grey-text">Nome Playlist</a> 
                             </li>
-                            <li class="m-top-15 grey-text">Nome Playlist</li>
-                            <li class="m-top-15 grey-text">Nome Playlist</li>
-                            <li class="m-top-15 grey-text">Nome Playlist</li>
-                            <li class="m-top-15 grey-text">Nome Playlist</li>
-                            <li class="m-top-15 grey-text">Nome Playlist</li>
-                            <li class="m-top-15 grey-text">Nome Playlist</li>
-                            <li class="m-top-15 grey-text">Nome Playlist</li>
+                            <li class="m-top-15 grey-text">
+                                <a href="#" class="color-white btn grey-text">Nome Playlist</a>
+
+                            </li>
+                            <li class="m-top-15 grey-text">
+                                <a href="#" class="color-white btn grey-text">Nome Playlist</a>
+                            </li>
+                            <li class="m-top-15 grey-text">
+                                <a href="#" class="color-white btn grey-text">Nome Playlist</a>
+                            </li>
+                            <li class="m-top-15 grey-text">
+                                <a href="#" class="color-white btn grey-text">Nome Playlist</a>
+                            </li>
+                            <li class="m-top-15 grey-text">
+                                <a href="#" class="color-white btn grey-text">Nome Playlist</a>
+                            </li>
+                            <li class="m-top-15 grey-text">
+                                <a href="#" class="color-white btn grey-text">Nome Playlist</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="footer-side-bar">
@@ -81,25 +101,25 @@
             <!-- /sezione sidebar -->
             <main>
                 <!-- sezione nav -->
-                <nav class=" grey-text font-weight m-top-15">
+                <nav class="top-nav grey-text font-weight m-top-15">
                     <ul class="list-inline flex just-center">
-                        <li class="m-right-20 active">
-                            IN EVIDENZA
+                        <li class="m-right-20 active ">
+                            <a href="" class="btn grey-text color-white">IN EVIDENZA</a> 
                         </li>
                         <li class="m-right-20">
-                            PODCAST
+                           <a href="" class="btn grey-text color-white">PODCAST</a> 
                         </li>
                         <li class="m-right-20">
-                            CLASSIFICHE
+                            <a href="" class="btn grey-text color-white">CLASSIFICHE</a> 
                         </li>
                         <li class="m-right-20">
-                            GENERI E MOOD
+                            <a href="" class="btn grey-text color-white">GENERI E MOOD</a> 
                         </li>
                         <li class="m-right-20">
-                            NUOVE USCITE
+                           <a href="" class="btn grey-text color-white">NUOVE USCITE</a> 
                         </li>
                         <li>
-                            SCOPRI
+                           <a href="" class="btn grey-text color-white">SCOPRI</a> 
                         </li>
                     </ul>
                 </nav>
@@ -111,32 +131,62 @@
                     </div>  
                     <div class="flex f-wrap ">
                         <div class="album-col padding-10 text-center">
-                            <img src="img/metal_lifting.jpg" alt="#" class="album-size">
+                            <div class="position">
+                                <img src="img/metal_lifting.jpg" alt="#" class="album-size">
+                                <div class="overlay">
+                                    <i class="fa-regular fa-circle-play btn-play"></i>
+                                </div>
+                            </div>
                             <h4 class="white-text m-top-15">Heavy metal</h4>
                             <h5 class="grey-text m-top-5">Subtitle</h5>
                         </div>
                         <div class="album-col padding-10 text-center">
-                            <img src="img/stranger.jpeg" alt="#" class="album-size">
+                            <div class="position">
+                                <img src="img/stranger.jpeg" alt="#" class="album-size">
+                                <div class="overlay">
+                                    <i class="fa-regular fa-circle-play btn-play"></i>
+                                </div>
+                            </div>
                             <h4 class="white-text m-top-15">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h4>
                             <h5 class="grey-text m-top-5">Kyle Dixon & Michael Stein</h5>
                         </div>
                         <div class="album-col padding-10 text-center">
-                            <img src="img/aquietplace.jpeg" alt="#" class="album-size">
+                            <div class="position">
+                                <img src="img/aquietplace.jpeg" alt="#" class="album-size">
+                                <div class="overlay">
+                                    <i class="fa-regular fa-circle-play btn-play"></i>
+                                </div>
+                            </div>
                             <h4 class="white-text m-top-15">A quiet place</h4>
                             <h5 class="grey-text m-top-5">Subtitle</h5>
                         </div>
                         <div class="album-col padding-10 text-center">
-                            <img src="img/split.jpeg" alt="#" class="album-size">
+                            <div class="position">
+                                <img src="img/split.jpeg" alt="#" class="album-size">
+                                <div class="overlay">
+                                    <i class="fa-regular fa-circle-play btn-play"></i>
+                                </div>
+                            </div>
                             <h4 class="white-text m-top-15">Split</h4>
                             <h5 class="grey-text m-top-5">Subtitle</h5>
                         </div>
                         <div class="album-col padding-10 text-center">
-                            <img src="img/cure.jpeg" alt="#" class="album-size">
+                            <div class="position">
+                                <img src="img/cure.jpeg" alt="#" class="album-size">
+                                <div class="overlay">
+                                    <i class="fa-regular fa-circle-play btn-play"></i>
+                                </div>
+                            </div>
                             <h4 class="white-text m-top-15">A cure for wellness</h4>
                             <h5 class="grey-text m-top-5">Subtitle</h5>
                         </div>
                         <div class="album-col padding-10 text-center">
-                            <img src="img/sinister.jpeg" alt="#" class="album-size">
+                            <div class="position">
+                                <img src="img/sinister.jpeg" alt="#" class="album-size">
+                                <div class="overlay">
+                                    <i class="fa-regular fa-circle-play btn-play"></i>
+                                </div>
+                            </div>
                             <h4 class="white-text m-top-15">Sinister</h4>
                             <h5 class="grey-text m-top-5">Subtitle</h5>
                         </div>
@@ -151,12 +201,22 @@
                     </div>  
                     <div class="flex f-wrap">
                         <div class="album-col padding-10 text-center">
-                            <img src="img/radar.jpeg" alt="#" class="album-size">
+                            <div class="position">
+                                <img src="img/radar.jpeg" alt="#" class="album-size">
+                                <div class="overlay">
+                                    <i class="fa-regular fa-circle-play btn-play"></i>
+                                </div>
+                            </div>
                             <h4 class="white-text m-top-15">Realease Radar</h4>
                             
                         </div>
                         <div class="album-col padding-10 text-center">
-                            <img src="img/mixdaily.jpeg" alt="#" class="album-size">
+                            <div class="position">
+                                <img src="img/mixdaily.jpeg" alt="#" class="album-size">
+                                <div class="overlay">
+                                    <i class="fa-regular fa-circle-play btn-play"></i>
+                                </div>
+                            </div>
                             <h4 class="white-text m-top-15">Daily Mix 1</h4>
                             
                         </div>
@@ -171,12 +231,22 @@
                     </div>
                     <div class="flex f-wrap">
                         <div class="album-col padding-10 text-center">
-                            <img src="img/youg.jpeg" alt="#" class="album-size bd-radius">
+                            <div class="position">
+                                <img src="img/youg.jpeg" alt="#" class="album-size bd-radius">
+                                <div class="overlay bd-radius">
+                                    <i class="fa-regular fa-circle-play btn-play"></i>
+                                </div>
+                            </div>
                             <h4 class="white-text m-top-15">Lana Del Rey</h4>
                             
                         </div>
                         <div class="album-col padding-10 text-center">
-                            <img src="img/einaudi.jpeg" alt="#" class="album-size bd-radius">
+                            <div class="position">
+                                <img src="img/einaudi.jpeg" alt="#" class="album-size bd-radius">
+                                <div class="overlay bd-radius">
+                                    <i class="fa-regular fa-circle-play btn-play"></i>
+                                </div>
+                            </div>
                             <h4 class="white-text m-top-15">Ludovico Einaudi</h4>
                             
                         </div>
@@ -197,22 +267,22 @@
                         <h6 class="grey-text">Brano nome</h6>
                     </div>
                     <div class="player-icon ">
-                        <a href=""><i class="fa-regular fa-folder grey-text m-right-5"></i></a>
-                        <a href=""><i class="fa-regular fa-heart grey-text"></i></a>
+                        <a href=""><i class="fa-regular fa-folder grey-text m-right-5 color-white"></i></a>
+                        <a href=""><i class="fa-regular fa-heart grey-text color-white"></i></a>
                     </div>
                </div>
                 <div class="col-center width-70 text-center font-size">
                     <div class="player-icon m-bottom-15">
                         <a href=""><i class="fa-solid fa-shuffle white-text m-right-25"></i></a>
                         <a href=""><i class="fa-solid fa-backward-step white-text m-right-25"></i></a>
-                        <a href=""><i class="fa-regular fa-circle-play white-text m-right-25 f-size-30"></i></a>
+                        <a href=""><i class="fa-regular fa-circle-play white-text m-right-25 btn-md"></i></a>
                         <a href=""><i class="fa-solid fa-forward-step white-text m-right-25"></i></a>
                         <a href=""><i class="fa-solid fa-rotate-right white-text m-right-25"></i></a>
                     </div>
                     <div class="player-timer flex a-items-center just-center">
                         <div class="time white-text m-right-10">0:25</div>
                         <div class="progress-area bg-grey ">
-                            <div class="progress-bar d-none"></div>
+                            <div class="progress-bar "></div>
                         </div>
                         <div class="time white-text text-right m-left-10">4:35</div>
                     </div>
@@ -224,7 +294,9 @@
                         <a href="3"><i class="fa-solid fa-volume-high white-text m-right-10"></i></a>
                     </div>
                         
-                    <div class="progress-area bg-grey"></div>
+                    <div class="progress-area bg-grey">
+                        <div class="progress-bar "></div>
+                    </div>
                 </div> 
             </div>
         </footer>
@@ -235,3 +307,4 @@
                 
 
                    
+                                
